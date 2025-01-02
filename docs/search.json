@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "posts/code.html",
-    "href": "posts/code.html",
-    "title": "code",
-    "section": "",
-    "text": "import numpy as np\nimport matplotlib.pyplot as plt \nx = np.random.randn(100)\nplt.plot(x)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "tttt2",
-    "section": "",
-    "text": "code\n\n\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\n강정혁\n\n\n\n\n\n\n\n\n\n\n\n\n뽀롱뽀롱\n\n\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\n최다호\n\n\n\n\n\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\n강정혁\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
     "objectID": "posts/pororo.html",
     "href": "posts/pororo.html",
     "title": "뽀롱뽀롱",
@@ -54,5 +33,33 @@
     "title": "뽀롱뽀롱",
     "section": "준비됐나요?",
     "text": "준비됐나요?\n\n\n\n\n\n\n옜날\n\n\n\n준비됐나요? -&gt; 준비됐어요~\n\n\n\n\n\n\n\n\n요즘\n\n\n\n준비됐나요? -&gt; 네네, 선생님!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "tttt2",
+    "section": "",
+    "text": "code\n\n\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\n강정혁\n\n\n\n\n\n\n\n\n\n\n\n\n뽀롱뽀롱\n\n\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\n최다호\n\n\n\n\n\n\n\n\n\n\n\n\n프랑스혁명\n\n\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\n강정혁\n\n\n\n\n\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\n강정혁\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/code.html",
+    "href": "posts/code.html",
+    "title": "code",
+    "section": "",
+    "text": "import numpy as np\nimport matplotlib.pyplot as plt \nx = np.random.randn(100)\nplt.plot(x)"
+  },
+  {
+    "objectID": "posts/france.html",
+    "href": "posts/france.html",
+    "title": "프랑스혁명",
+    "section": "",
+    "text": "프랑스 혁명\n루이\n\n\n\nimage.png\n\n\n\n\n혁명의 전개\n삼부회 소집\n\n\n\nimage.png"
   }
 ]
