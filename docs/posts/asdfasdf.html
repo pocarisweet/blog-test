@@ -154,10 +154,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+<div id="cell-0" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <div id="cell-1" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="op">+</span><span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="op">+</span><span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 <pre><code>2</code></pre>
+</div>
+</div>
+<div id="cell-2" class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>wget https:<span class="op">//</span>media.githubusercontent.com<span class="op">/</span>media<span class="op">/</span>guebin<span class="op">/</span>PP2023<span class="op">/</span>main<span class="op">/</span>posts<span class="op">/</span>fashion<span class="op">-</span>mnist_train.csv</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"fashion-mnist_train.csv"</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>plt.imshow(df.iloc[<span class="dv">1</span>,<span class="dv">1</span>:].to_numpy().reshape(<span class="dv">28</span>,<span class="dv">28</span>),cmap<span class="op">=</span><span class="st">"gray"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>--2025-01-02 04:56:19--  https://media.githubusercontent.com/media/guebin/PP2023/main/posts/fashion-mnist_train.csv
+Resolving media.githubusercontent.com (media.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to media.githubusercontent.com (media.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 133047193 (127M) [text/plain]
+Saving to: ‘fashion-mnist_train.csv’
+
+fashion-mnist_train 100%[===================&gt;] 126.88M  41.1MB/s    in 3.1s    
+
+2025-01-02 04:56:22 (41.1 MB/s) - ‘fashion-mnist_train.csv’ saved [133047193/133047193]
+</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="asdfasdf_files/figure-html/cell-4-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
 </div>
 </div>
 

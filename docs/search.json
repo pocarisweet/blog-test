@@ -67,6 +67,6 @@
     "href": "posts/asdfasdf.html",
     "title": "tttt2",
     "section": "",
-    "text": "1+1\n\n2"
+    "text": "import matplotlib.pyplot as plt\n\n\n1+1\n\n2\n\n\n\nimport pandas as pd\n!wget https://media.githubusercontent.com/media/guebin/PP2023/main/posts/fashion-mnist_train.csv\ndf = pd.read_csv(\"fashion-mnist_train.csv\")\nplt.imshow(df.iloc[1,1:].to_numpy().reshape(28,28),cmap=\"gray\")\n\n--2025-01-02 04:56:19--  https://media.githubusercontent.com/media/guebin/PP2023/main/posts/fashion-mnist_train.csv\nResolving media.githubusercontent.com (media.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.111.133, ...\nConnecting to media.githubusercontent.com (media.githubusercontent.com)|185.199.110.133|:443... connected.\nHTTP request sent, awaiting response... 200 OK\nLength: 133047193 (127M) [text/plain]\nSaving to: ‘fashion-mnist_train.csv’\n\nfashion-mnist_train 100%[===================&gt;] 126.88M  41.1MB/s    in 3.1s    \n\n2025-01-02 04:56:22 (41.1 MB/s) - ‘fashion-mnist_train.csv’ saved [133047193/133047193]"
   }
 ]
